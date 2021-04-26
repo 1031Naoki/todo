@@ -11,6 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'GoalController@index');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/goals/login', 'loginController@create');
+
+Route::get('/goals/create', 'GoalController@create');
+
+Route::post('/goals', 'GoalController@store');
+
+Route::delete('/goals/{goal}', 'GoalController@delete');

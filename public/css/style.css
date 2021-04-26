@@ -1,0 +1,53 @@
+.title {
+    color: green;
+    background-color:yellow;
+}
+
+.Howto {
+    color:red;
+}
+
+.btn {
+    padding: 8px 24px 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+}
+
+.btn:active{
+    box-shadow:none;
+    position:relative;
+    top:7px;
+}
+
+.deletebtn{
+    float:right;
+}
+
+.home {
+    background-color:#239b76;
+    box-shadow: 0px 7px #1a7940;
+}
+
+.login {
+    background-color:#3b5998;
+    box-shadow: 0px 7px darkblue;
+}
+
+.register {
+    background-color:#55acee;
+    box-shadow: 0px 7px #4169E1	;
+}
+
+.logout {
+    background-color: orange;
+    box-shadow: 0px 7px darkorange;
+}
+
+li {
+    background-color: #EEFFFF;
+}
+
+.goal_error {
+    color:red;
+}
